@@ -1,7 +1,3 @@
-localhost
+[virtual]
+172.17.0.2 ansible_ssh_user=vivek1 ansible_ssh_pass=1234 ansible_become=yes ansible_become_password=1234
 
-[ubuntu18]
-192.168.1.170
-
-[ubuntu20]
-192.168.1.166
